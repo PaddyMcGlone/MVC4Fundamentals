@@ -29,6 +29,7 @@ C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\eManage
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\eManager.Web.dll
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\eManager.Web.pdb
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\Antlr3.Runtime.dll
+C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\eManager.Domain.dll
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\Microsoft.AI.DependencyCollector.dll
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -47,6 +48,7 @@ C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\System.
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\System.Web.WebPages.dll
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\System.Web.WebPages.Razor.dll
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\WebGrease.dll
+C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\eManager.Domain.pdb
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\System.Web.Helpers.xml
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\System.Web.Mvc.xml
