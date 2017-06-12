@@ -67,3 +67,7 @@ C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\Microso
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\obj\Debug\eManager.Web.csprojResolveAssemblyReference.cache
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\obj\Debug\eManager.Web.dll
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\obj\Debug\eManager.Web.pdb
+C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\EntityFramework.dll
+C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\EntityFramework.SqlServer.dll
+C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\EntityFramework.xml
+C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Web\bin\EntityFramework.SqlServer.xml
