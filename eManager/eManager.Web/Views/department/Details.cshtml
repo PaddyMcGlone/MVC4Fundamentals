@@ -19,5 +19,19 @@
         @Html.TextBoxFor(m => m.Name, new{ @class = "form-control", @readonly="readonly"})
     </div>    
 
-    <button name="edit" class="btn btn-primary" new{ id = @Model.Id }>Edit</button>
+    @Html.ActionLink("Create an Employee", "create", "employee", new { DepartmentId = Model.Id }, new { @class="btn btn-default" })
+
+    <table>
+        <tr>
+            <th>Employee Name</th>
+            <th></th>
+        </tr>
+        <tr>
+            @foreach (var employee in Model.Employees)
+            {
+                <td>@employee.Name</td>
+                <td>@*Html.ActionLink(@employee.Id, "details", "employee")*@</td>
+            }
+        </tr>
+    </table>
 }

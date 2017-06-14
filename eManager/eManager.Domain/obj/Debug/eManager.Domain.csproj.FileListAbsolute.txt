@@ -2,3 +2,4 @@ C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Domain\bin\Debu
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Domain\bin\Debug\eManager.Domain.pdb
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Domain\obj\Debug\eManager.Domain.dll
 C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Domain\obj\Debug\eManager.Domain.pdb
+C:\Code\Pluralsight Exercises\MVC4Fundamentals\eManager\eManager.Domain\obj\Debug\eManager.Domain.csprojResolveAssemblyReference.cache
