@@ -6,6 +6,8 @@
 {
     @Html.ValidationSummary(true)
 
+    @Html.EditorFor(m => m.DepartmentId)
+
     <div class="form-group">
         @Html.LabelFor(m => m.Name)
         @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control" } })

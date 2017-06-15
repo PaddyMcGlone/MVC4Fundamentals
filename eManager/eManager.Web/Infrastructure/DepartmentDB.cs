@@ -21,9 +21,10 @@ namespace eManager.Web.Infrastructure
 
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
-
+        
         IQueryable<Employee> IDepartmentDataSource.Employees => Employees;
         IQueryable<Department> IDepartmentDataSource.Departments => Departments;
+        void IDepartmentDataSource.Save() => SaveChanges();
 
         #endregion
     }
