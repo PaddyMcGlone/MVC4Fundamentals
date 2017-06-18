@@ -1,3 +1,4 @@
+using System.Web.Security;
 using eManager.Domain;
 
 namespace eManager.Web.Migrations
@@ -17,6 +18,17 @@ namespace eManager.Web.Migrations
                 new Department{Name = "Sales"},
                 new Department{Name = "Development"},
                 new Department{Name = "HR"});
+
+            if (!Roles.RoleExists("Admin"))
+            {
+                Roles.CreateRole("Admin");
+            }
+
+            if (Membership.GetUser("pmcglone") == null)
+            {
+                Membership.CreateUser("pmcglone", "password");
+                Roles.AddUserToRole("pmcglone", "Admin");
+            }
         }
     }
 }

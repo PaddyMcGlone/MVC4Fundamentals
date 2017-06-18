@@ -15,6 +15,7 @@ namespace eManager.Web.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "admin")]
         public ActionResult Create(int departmentId)
         {
             var viewModel = new CreateEmployeeViewModel {DepartmentId = departmentId};
