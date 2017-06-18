@@ -24,18 +24,18 @@ namespace eManager.Web.Controllers
         [HttpPost]
         public ActionResult Create(CreateEmployeeViewModel viewModel)
         {
-            if (ModelState.IsValid) return View(viewModel);
+            if (!ModelState.IsValid) return View(viewModel);
 
             var department = _db.Departments.SingleOrDefault(d => d.Id == viewModel.DepartmentId);
 
-            department?.Employees.Add(new Employee
-            {
-                Name = viewModel.Name,
-                HireDate = viewModel.HireDate,
-            });
+            department?.Employees.Add(
+                new Employee
+                {
+                    Name = viewModel.Name,
+                    HireDate = viewModel.HireDate,
+                });
 
             _db.Save();
-
             return RedirectToAction("details", "Department", new{ id = viewModel.DepartmentId});
 
         }

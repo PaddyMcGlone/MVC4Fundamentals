@@ -11,27 +11,27 @@
 {
     <div class="form-group">
         @Html.LabelFor(m => m.Id)
-        @Html.TextBoxFor(m => m.Id, new { @class = "form-control", @readonly="readonly" })
+        @Html.TextBoxFor(m => m.Id, new { @class = "form-control", @readonly = "readonly" })
     </div>
 
     <div class="form-group">
         @Html.LabelFor(m => m.Name)
-        @Html.TextBoxFor(m => m.Name, new{ @class = "form-control", @readonly="readonly"})
-    </div>    
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @readonly = "readonly" })
+    </div>
 
-    @Html.ActionLink("Create an Employee", "create", "employee", new { DepartmentId = Model.Id }, new { @class="btn btn-default" })
+    @Html.ActionLink("Create an Employee", "create", "employee", new { DepartmentId = Model.Id }, new { @class = "btn btn-default" })
 
     <table>
         <tr>
             <th>Employee Name</th>
             <th></th>
         </tr>
-        <tr>
-            @foreach (var employee in Model.Employees)
-            {
-                <td>@employee.Name</td>
-                <td>@*Html.ActionLink(@employee.Id, "details", "employee")*@</td>
-            }
-        </tr>
+
+        @foreach (var employee in Model.Employees)
+        {
+            <tr>                
+                <td>@Html.ActionLink(@employee.Name, "details", "employee")</td>
+            </tr>
+        }
     </table>
 }

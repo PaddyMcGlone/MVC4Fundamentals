@@ -6,7 +6,7 @@
 {
     @Html.ValidationSummary(true)
 
-    @Html.EditorFor(m => m.DepartmentId)
+    @Html.HiddenFor(m => m.DepartmentId)
 
     <div class="form-group">
         @Html.LabelFor(m => m.Name)
